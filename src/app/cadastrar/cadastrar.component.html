@@ -8,7 +8,7 @@
       <div class="row d-flex justify-content-center">
         <div class="col-md-10">
 
-          <h1 class="text-center">Cadastrar</h1>
+          <h2 class="text-center">Cadastrar</h2>
 
           <div class="form-group">
             <label for="nome">Nome</label>
@@ -48,9 +48,11 @@
             </select>
           </div>
 
+          <!-- botões da tela de cadastro -->
+          <!-- Lembrar que o nome associado ao botão sera usado em rotas! -->
           <div class="d-flex justify-content-center">
-            <button type="submit" class="btn btn-outline-success mr-4">Cadastrar</button>
-            <button type="submit" class="btn btn-outline-danger">Cancelar</button>
+            <button type="submit" class="btn btn-outline-success mr-4">Cadastrar</button> <!-- inclusão de routerlink no botão para retornar a pagina inicial -->
+            <button type="submit" class="btn btn-outline-danger" routerLink='/login'>Cancelar</button>
           </div>
 
 
