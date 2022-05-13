@@ -1,0 +1,10 @@
+#img-bg {
+  background-image: url("https://i.pinimg.com/originals/fe/aa/2d/feaa2d565a511eea45c1665a5aec0e8c.jpg"); /* imagem background login || caso use a past assets, lembrar de usar ".." para localizar a pasta */
+
+  min-height: 43.9vw;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
